@@ -1,3 +1,6 @@
 @Brey Quinchia 
 
-My first comment
+My first comment (In this exercise)
+
+ES->"En realidad no es mi primer repositorio, pero lo estoy subiendo
+    Solo por seguir las directrices..."
