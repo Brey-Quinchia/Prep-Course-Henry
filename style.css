@@ -1,0 +1,21 @@
+
+/* Class Style */
+body{
+    background-color: #fff765b3;
+}
+.mainApp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContent{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 20px;
+    height: 70%;
+    width: 70%;
+}
+.myText{
+    font-size: 80px;
+    color: green;
+}
