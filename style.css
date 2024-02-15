@@ -1,0 +1,91 @@
+
+/* Class Style */
+body{
+    background-color: #fff765b3;
+}
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appContent{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(215, 243, 250);
+    border-radius: 20px;
+    padding: 10px;
+    height: 90vh;
+    width: 70%;
+}
+.myHeader{
+    text-align: center;
+    transition: 0.5s;
+    background: linear-gradient(90deg,rgb(215, 243, 250),rgb(80, 241, 241));
+    border-radius: 30px;
+}
+.myHeader h1{
+    font-family:cursive;
+    font-size: 50px;
+    padding-top: -10px;
+}
+.myHeader:hover{
+    background: linear-gradient(180deg,rgb(215, 243, 250),rgb(80, 241, 241));
+}
+#headTitle::first-letter{
+    color: #d21818;
+    font-size: 60px;
+    font-weight: bold;
+}
+.myHeader:hover #headTitle{
+    color: #ff173db9
+}
+.myHeader:hover #headTitle::first-letter{
+    color: yellow;
+}
+.appFooter{
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+
+}
+.myText{
+    font-size: 80px;
+    color: green;
+}
+.card{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    transition: 0.8s;
+    border: #251d1d42 2px solid;
+    height: 10em;
+}
+.menuContent{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.card:hover{
+    transform: scale(1.07);
+}
+.blue{
+    background: linear-gradient(45deg, #09e2ffbf,#1f52f6b9, #4a0dffa4);
+}
+.red{
+    background: linear-gradient(45deg, red, orange);
+}
+.green{
+    background: linear-gradient(45deg, rgb(35, 255, 35), rgb(0, 255, 145));
+}
+#blueCard:hover{
+    background: linear-gradient(225deg, #09e2ffbf,#1f52f6b9, #4a0dffa4);
+}
+#redCard:hover{
+    background: linear-gradient(225deg, red, orange);
+}
+#greenCard:hover{
+    background: linear-gradient(225deg, rgb(35, 255, 35), rgb(0, 255, 145));
+}
+/* styles for a div card by id */
